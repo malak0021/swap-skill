@@ -1,0 +1,28 @@
+# Dependencies - لا ترفعهم على GitHub
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+client/build/
+
+# Environment variables - مهم جداً لا ترفعهم
+.env
+.env.local
+.env.production
+server/.env
+
+# Uploaded files (اختياري - لو عايز تحتفظ بيهم شيل الـ #)
+# server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+client/.vite/

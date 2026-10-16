@@ -1,0 +1,348 @@
+{
+  "users": [
+    {
+      "id": "usr_1792101038866",
+      "email": "malakrashed660@gmail.com",
+      "password": "malak123",
+      "name": "Malak Rashed",
+      "faculty": "Faculty of Engineering",
+      "bio": "Passionate about UI/UX and graphic design.",
+      "age": 21,
+      "skillsToTeach": [
+        "Photoshop",
+        "UI Design"
+      ],
+      "skillsToLearn": [
+        "Excel & Data Analysis",
+        "Python Basics"
+      ],
+      "rating": 4,
+      "reviewsCount": 1,
+      "profileCompleted": true,
+      "createdAt": "2026-10-15T21:50:38.866Z"
+    },
+    {
+      "id": "usr_1792102057838",
+      "email": "malakgabra660@gmail.com",
+      "password": "malak123",
+      "name": "Malak Mohamed",
+      "faculty": "Faculty of Computer Science",
+      "bio": "Interested in web development and data analytics.",
+      "age": 22,
+      "skillsToTeach": [
+        "Excel & Data Analysis",
+        "Web Development (React)"
+      ],
+      "skillsToLearn": [
+        "Photoshop",
+        "UI Design"
+      ],
+      "rating": 5,
+      "reviewsCount": 1,
+      "profileCompleted": true,
+      "createdAt": "2026-10-15T22:07:37.838Z"
+    }
+  ],
+  "swaps": [
+    {
+      "id": "swap_1792102261628",
+      "senderId": "usr_1792102057838",
+      "receiverId": "usr_1792101038866",
+      "skillOffered": "Excel & Data Analysis",
+      "skillWanted": "Photoshop",
+      "note": "Hi Malak! Would love to swap Excel training for Photoshop essentials.",
+      "status": "completed",
+      "sessionDate": "2026-10-21",
+      "sessionTime": "16:00",
+      "sessionDuration": 60,
+      "meetingLink": "https://meet.google.com/qrs-tuvw-xyz",
+      "agenda": [
+        {
+          "id": "ag_1",
+          "title": "Excel Pivot Tables & Formulas",
+          "duration": 20
+        },
+        {
+          "id": "ag_2",
+          "title": "Photoshop Layer Masks & Tools",
+          "duration": 25
+        },
+        {
+          "id": "ag_3",
+          "title": "Interactive Hands-on Q&A",
+          "duration": 15
+        }
+      ],
+      "agendaConfirmed": true,
+      "confirmedBy": [
+        "usr_1792102057838",
+        "usr_1792101038866"
+      ],
+      "createdAt": "2026-10-15T22:11:01.628Z"
+    },
+    {
+      "id": "swap_1792107823776",
+      "senderId": "usr_1792102057838",
+      "receiverId": "usr_1792101038866",
+      "skillOffered": "Excel & Data Analysis",
+      "skillWanted": "Photoshop",
+      "note": "Hello! I would love to connect and swap skills with you.",
+      "status": "accepted",
+      "sessionDate": "",
+      "sessionTime": "",
+      "sessionDuration": 30,
+      "meetingLink": "",
+      "agenda": [],
+      "agendaConfirmed": false,
+      "confirmedBy": [],
+      "createdAt": "2026-10-15T23:43:43.776Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1792102280900",
+      "senderId": "usr_1792102057838",
+      "receiverId": "usr_1792101038866",
+      "text": "Hello Malak! Looking forward to our skill swap session.",
+      "timestamp": "01:11 AM",
+      "createdAt": "2026-10-15T22:11:20.900Z"
+    },
+    {
+      "id": "msg_1792105283173",
+      "senderId": "usr_1792101038866",
+      "receiverId": "usr_1792102057838",
+      "text": "Hi Malak! I'm ready to learn.",
+      "timestamp": "02:01 AM",
+      "createdAt": "2026-10-15T23:01:23.216Z"
+    },
+    {
+      "id": "msg_1792107393178",
+      "senderId": "usr_1792101038866",
+      "receiverId": "usr_1792102057838",
+      "text": "Test message from API",
+      "attachment": null,
+      "timestamp": "02:36 AM",
+      "createdAt": "2026-10-15T23:36:33.178Z"
+    },
+    {
+      "id": "msg_1792107755269",
+      "senderId": "usr_1792102057838",
+      "senderName": "Malak Mohamed",
+      "receiverId": "usr_1792101038866",
+      "text": "",
+      "attachment": {
+        "originalName": "Screenshot 2026-10-15 215204.png",
+        "fileName": "mat-1792107755214-405585066.png",
+        "fileType": "image/png",
+        "fileSize": 33809,
+        "url": "/uploads/materials/mat-1792107755214-405585066.png",
+        "isVideoLink": false
+      },
+      "timestamp": "02:42 AM",
+      "createdAt": "2026-10-15T23:42:35.306Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1792101038866",
+      "userId": "usr_1792101038866",
+      "type": "welcome",
+      "title": "Welcome to Skill Swap! 💜",
+      "message": "Set up your skills to teach and learn to discover matching partners.",
+      "read": false,
+      "link": "profile",
+      "relatedId": "usr_1792101038866",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792105649065",
+      "userId": "usr_1792102057838",
+      "type": "review_received",
+      "title": "New Review Received! ⭐",
+      "message": "Malak Rashed rated you 5/5: \"Excellent session, explained Excel beautifully!\"",
+      "read": false,
+      "link": "reviews",
+      "relatedId": "rev_1792105649065",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792107295469",
+      "userId": "usr_1792101038866",
+      "type": "review_received",
+      "title": "New Review Received! ⭐",
+      "message": "Malak Mohamed rated you 4/5: \"Great Photoshop skills, very patient teacher!\"",
+      "read": false,
+      "link": "reviews",
+      "relatedId": "rev_1792107295440",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792107393178",
+      "userId": "usr_1792102057838",
+      "type": "message",
+      "title": "New message from Malak Rashed 💬",
+      "message": "Test message from API",
+      "read": false,
+      "link": "messages",
+      "relatedId": "usr_1792101038866",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792107755306",
+      "userId": "usr_1792101038866",
+      "type": "message",
+      "title": "New message from Malak Mohamed 💬",
+      "message": "[Attachment: Screenshot 2026-10-15 215204.png] ",
+      "read": false,
+      "link": "messages",
+      "relatedId": "usr_1792102057838",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792107823776",
+      "userId": "usr_1792101038866",
+      "type": "swap_request",
+      "title": "New Skill Swap Request! 🤝",
+      "message": "Malak Mohamed wants to swap: Excel & Data Analysis for Photoshop",
+      "read": false,
+      "link": "swaps",
+      "relatedId": "swap_1792107823776",
+      "time": "Just now"
+    },
+    {
+      "id": "notif_1792107853607",
+      "userId": "usr_1792102057838",
+      "type": "swap_accepted",
+      "title": "Swap Request Accepted! 🎉",
+      "message": "Your partner accepted your skill swap. Propose a schedule and agenda now!",
+      "read": false,
+      "link": "swaps",
+      "relatedId": "swap_1792107823776",
+      "time": "Just now"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1792105649065",
+      "swapId": "swap_1792102261628",
+      "reviewerId": "usr_1792101038866",
+      "reviewerName": "Malak Rashed",
+      "revieweeId": "usr_1792102057838",
+      "rating": 5,
+      "comment": "Excellent session, explained Excel beautifully!",
+      "date": "Oct 16, 2026"
+    },
+    {
+      "id": "rev_1792107295440",
+      "swapId": "swap_1792102261628",
+      "reviewerId": "usr_1792102057838",
+      "reviewerName": "Malak Mohamed",
+      "revieweeId": "usr_1792101038866",
+      "rating": 4,
+      "comment": "Great Photoshop skills, very patient teacher!",
+      "date": "Oct 16, 2026"
+    }
+  ],
+  "skillsCatalog": [
+    {
+      "id": "sk_1",
+      "name": "Photoshop",
+      "category": "Design"
+    },
+    {
+      "id": "sk_2",
+      "name": "UI/UX Design",
+      "category": "Design"
+    },
+    {
+      "id": "sk_3",
+      "name": "Graphic Design",
+      "category": "Design"
+    },
+    {
+      "id": "sk_4",
+      "name": "Motion Graphics",
+      "category": "Design"
+    },
+    {
+      "id": "sk_5",
+      "name": "Web Design",
+      "category": "Design"
+    },
+    {
+      "id": "sk_6",
+      "name": "Illustration",
+      "category": "Design"
+    },
+    {
+      "id": "sk_7",
+      "name": "Web Development (React)",
+      "category": "Programming"
+    },
+    {
+      "id": "sk_8",
+      "name": "Python Basics",
+      "category": "Programming"
+    },
+    {
+      "id": "sk_9",
+      "name": "JavaScript",
+      "category": "Programming"
+    },
+    {
+      "id": "sk_10",
+      "name": "English Conversation",
+      "category": "Language"
+    },
+    {
+      "id": "sk_11",
+      "name": "Spanish",
+      "category": "Language"
+    },
+    {
+      "id": "sk_12",
+      "name": "French",
+      "category": "Language"
+    },
+    {
+      "id": "sk_13",
+      "name": "Arabic",
+      "category": "Language"
+    },
+    {
+      "id": "sk_14",
+      "name": "Excel & Data Analysis",
+      "category": "Business"
+    },
+    {
+      "id": "sk_15",
+      "name": "CV & Interview Prep",
+      "category": "Business"
+    },
+    {
+      "id": "sk_16",
+      "name": "Marketing",
+      "category": "Business"
+    },
+    {
+      "id": "sk_17",
+      "name": "Project Management",
+      "category": "Business"
+    },
+    {
+      "id": "sk_18",
+      "name": "Acoustic Guitar",
+      "category": "Music"
+    },
+    {
+      "id": "sk_19",
+      "name": "Piano",
+      "category": "Music"
+    },
+    {
+      "id": "sk_20",
+      "name": "Singing",
+      "category": "Music"
+    }
+  ]
+}
